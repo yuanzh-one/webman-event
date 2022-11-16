@@ -3,17 +3,17 @@
 ## 安装
 
 ```shell script
-composer require yzh52521/webman-event
+composer require yuanzh/webman-event
 ```
 
 ## 配置
 
-事件配置文件 `config/plugin/yuan/event/app.php` 内容如下
+事件配置文件 `config/plugin/yuanzh/event/app.php` 内容如下
 
 ```php
 return [
     'enable'      => true,
-    'event'       =>[
+    'events'       =>[
             // 事件监听
             'listener'    => [
                 'test' => [
